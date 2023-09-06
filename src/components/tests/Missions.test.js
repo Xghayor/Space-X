@@ -1,8 +1,8 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Missions from '../Missions';
 import { Provider } from 'react-redux';
 import configureStore from 'redux-mock-store';
+import Missions from '../Missions';
 
 const mockStore = configureStore([]);
 const store = mockStore({
@@ -24,7 +24,7 @@ it('renders correctly', () => {
   const component = renderer.create(
     <Provider store={store}>
       <Missions />
-    </Provider>
+    </Provider>,
   );
 
   const tree = component.toJSON();

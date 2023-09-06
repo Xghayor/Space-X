@@ -33,7 +33,7 @@ test('Rockets component matches snapshot', () => {
   const { container } = render(
     <Provider store={store}>
       <Rockets />
-    </Provider>
+    </Provider>,
   );
 
   expect(container).toMatchSnapshot();
