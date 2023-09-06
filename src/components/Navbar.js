@@ -26,6 +26,7 @@ const Navbar = () => (
             Missions
           </NavLink>
         </li>
+        <li>|</li>
         <li className="nav-item">
           <NavLink to="/mypage" className="nav-link" activeClassName="active">
             My Profile
