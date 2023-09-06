@@ -1,15 +1,11 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { getMissions, toggleJoinStatus } from '../Redux/missions/missionSlice';
+import { toggleJoinStatus } from '../Redux/missions/missionSlice';
 import './styles/Missions.css';
 
 const Missions = () => {
   const { missions, loading, error } = useSelector((state) => state.missions);
   const dispatch = useDispatch();
-
-  useEffect(() => {
-    dispatch(getMissions());
-  }, [dispatch]);
 
   if (loading) {
     return <div>Loading...</div>;
