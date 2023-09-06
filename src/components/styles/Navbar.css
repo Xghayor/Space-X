@@ -1,11 +1,32 @@
-/* Navbar container */
 .navbar {
-  background-color: #333;
+  background-color: #001f3f;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  position: relative;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffd700; 
+  transform: scaleX(0); 
+  transform-origin: bottom left;
+  transition: transform 0.5s ease-in-out; 
+}
+
+.nav-link.active::before {
+  transform: scaleX(1); 
 }
 
 /* Navbar logo */
@@ -46,4 +67,20 @@
 
 .nav-link:hover {
   color: #ffd700;
+}
+
+
+.navbar-logo img {
+  width: 40px;
+  height: 40px;
+  animation: rotate 4s infinite linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg); 
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
