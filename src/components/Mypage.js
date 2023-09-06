@@ -4,18 +4,18 @@ import './styles/Mypage.css';
 
 const MyPage = () => {
   const { missions } = useSelector((state) => state.missions);
+  const { rockets } = useSelector((state) => state.rockets);
 
   const joinedMissions = missions.filter((mission) => mission.joined === true);
-
-  const { rockets } = useSelector((state) => state.rockets);
   const joinedRockets = rockets.filter((rocket) => rocket.reserved === true);
+
   return (
     <section>
       <div className="type">
         <h2>Rocket Joined</h2>
         <ul>
           {joinedRockets.map((rocket) => (
-            <li key={rocket.id}>{rocket.rocket_name}</li>
+            <li key={rocket.id}>{rocket.name}</li>
           ))}
         </ul>
       </div>
