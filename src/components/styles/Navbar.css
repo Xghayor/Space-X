@@ -10,6 +10,9 @@
 .nav-link {
   text-decoration: none;
   position: relative;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
 }
 
 .nav-link::before {
@@ -19,14 +22,14 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #ffd700; 
-  transform: scaleX(0); 
+  background-color: #ffd700;
+  transform: scaleX(0);
   transform-origin: bottom left;
-  transition: transform 0.5s ease-in-out; 
+  transition: transform 0.5s ease-in-out;
 }
 
 .nav-link.active::before {
-  transform: scaleX(1); 
+  transform: scaleX(1);
 }
 
 /* Navbar logo */
@@ -35,10 +38,6 @@
   align-items: center;
   text-decoration: none;
   color: white;
-}
-
-.navbar-logo img {
-  margin-right: 10px;
 }
 
 /* Navbar text */
@@ -58,28 +57,22 @@
   margin: 0;
 }
 
-.nav-link {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  transition: color 0.3s;
-}
-
 .nav-link:hover {
   color: #ffd700;
 }
-
 
 .navbar-logo img {
   width: 40px;
   height: 40px;
   animation: rotate 4s infinite linear;
+  margin-right: 10px;
 }
 
 @keyframes rotate {
   0% {
-    transform: rotate(0deg); 
+    transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
