@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.d6f641eb.css",
-    "main.js": "/static/js/main.b89b2037.js",
-    "static/media/planet.png": "/static/media/planet.e7ebf7759a1ce78fb923.png",
-    "index.html": "/index.html",
-    "main.d6f641eb.css.map": "/static/css/main.d6f641eb.css.map",
-    "main.b89b2037.js.map": "/static/js/main.b89b2037.js.map"
+    "main.css": "/Space-X/static/css/main.d6f641eb.css",
+    "main.js": "/Space-X/static/js/main.852b7347.js",
+    "static/media/planet.png": "/Space-X/static/media/planet.e7ebf7759a1ce78fb923.png",
+    "index.html": "/Space-X/index.html",
+    "main.d6f641eb.css.map": "/Space-X/static/css/main.d6f641eb.css.map",
+    "main.852b7347.js.map": "/Space-X/static/js/main.852b7347.js.map"
   },
   "entrypoints": [
     "static/css/main.d6f641eb.css",
-    "static/js/main.b89b2037.js"
+    "static/js/main.852b7347.js"
   ]
 }
