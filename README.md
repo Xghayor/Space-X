@@ -178,6 +178,6 @@ Give a star⭐️ or a thumbs up 👍 if you like this project! You can visit my
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LISENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
