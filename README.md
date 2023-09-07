@@ -60,7 +60,7 @@ The project is built with various programming tools such as React, JSX, CSS, and
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
--
+- [click for live demo](https://xghayor.github.io/Space-X/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
